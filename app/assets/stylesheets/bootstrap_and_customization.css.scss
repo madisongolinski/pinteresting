@@ -3,3 +3,11 @@ $navbar-default-bg: #2c3e50;
 $btn-success-bg: #1abc9c;
 $navbar-default-link-color: #ecf0f1;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
