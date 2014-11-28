@@ -10,4 +10,7 @@ class Pin < ActiveRecord::Base
 		string_to_return = image.url(type).to_s.sub! '%'+first, ''
 		string_to_return
 	end
+
+	validates :image, presence: true
+	validates :description, presence: true
 end
