@@ -1,5 +1,6 @@
-class AddDescriptionToPins < ActiveRecord::Migration
-  def change
-    add_column :pins, :description, :string
+class AddAttachmentImageToPins< ActiveRecord::Migration
+  def self.up
+    change_table :pin do |t|
+    	t.attachment :image
   end
 end
